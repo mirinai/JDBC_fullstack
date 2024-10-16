@@ -23,7 +23,7 @@ public class SltData2 {
 			String sql = new StringBuilder().append("select * from DEPT_TEMP ").append("where DEPTNO=?").toString();
 
 			PreparedStatement pstmt = conn.prepareStatement(sql);
-			pstmt.setInt(1, 30);
+			pstmt.setInt(1, 40);
 
 			ResultSet rs = pstmt.executeQuery();
 
